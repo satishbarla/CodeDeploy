@@ -1,0 +1,77 @@
+# General
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.cmd
+*.vi
+*~
+*.sass-cache
+*.tar
+*.tar.bz2
+*.tar.gz
+/error_log
+
+# Editor/IDE
+nbproject/private
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+*.sublime-project
+*.sublime-workspace
+_notes
+dwsync.xml
+*.komodoproject
+.komodotools
+sftp-config.json
+
+# Folder view config files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Source Control Systems
+.svn
+.hg
+.CSV
+
+# Other
+db/*
+sql/*
+rep1/*
+phpinfo.php
+github.php
+
+# Unncessary backups
+*.bak
+*.php~
+*-old
+*-bak
+
+# Ignored so production can have different versions
+robots.txt
+.htaccess
+errors/local.xml
+app/etc/local.xml
+sitemap.xml
+
+
+var/
+media/
+media/catalog/product/cache/*
+media/import/
+media/icons/
+media/tmp/*
+media/xmlconnect/
+var/cache/*
+var/session/*
+var/locks/*
+var/resource_config.json
